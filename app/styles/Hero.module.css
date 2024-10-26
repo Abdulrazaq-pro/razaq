@@ -1,0 +1,100 @@
+.whole {
+  position: relative;
+  width: 100%;
+  background-color: rgb(27, 27, 27);
+  color: rgb(201, 187, 187);
+  
+}
+
+.hero {
+  /* z-index: 10; */
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  height: 100%;
+}
+
+
+.container{
+  z-index: 10;
+  position: relative;
+}
+
+
+.titler{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.char {
+  display: inline-block;
+  white-space: pre; /* To preserve spaces */
+}
+
+.backgroundPattern {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+      circle,
+      rgba(27, 27, 27, 0) 20%,
+      rgba(27, 27, 27, 0.2) 40%,
+      rgba(27, 27, 27, 0.5) 60%,
+      rgba(27, 27, 27, 0.7) 80%,
+      rgba(27, 27, 27, 0.9) 90%
+    ),
+    linear-gradient(rgb(255, 255, 255) 2px, transparent 2px),
+    linear-gradient(90deg, rgb(255, 255, 255) 2px, transparent 2px),
+    linear-gradient(rgb(255, 255, 255) 1px, transparent 1px),
+    linear-gradient(
+      90deg,
+      rgb(255, 255, 255) 1px,
+      var(--token-1c0ed768-6f1a-461b-98b6-59c7c8e02179, rgb(23, 23, 23)) 1px
+    );
+  background-position: center, -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  background-size: cover, 300px 300px, 300px 300px, 60px 60px, 60px 60px;
+  border-radius: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.03;
+}
+
+@media (max-width: 1200px) {
+  .backgroundPattern {
+    background-size: cover, 200px 200px, 200px 200px, 40px 40px, 40px 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .backgroundPattern {
+    background-size: cover, 160px 160px, 160px 160px, 32px 32px, 32px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .backgroundPattern {
+    background-size: cover, 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .backgroundPattern {
+    background-size: cover, 140px 140px, 140px 140px, 28px 28px, 28px 28px; /* Increased values */
+  }
+}
+
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+

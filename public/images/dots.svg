@@ -1,0 +1,66 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="400" fill="transparent"/>
+  <!-- Row 1 -->
+  <circle cx="25" cy="25" r="5" fill="white"/>
+  <circle cx="75" cy="25" r="5" fill="white"/>
+  <circle cx="125" cy="25" r="5" fill="white"/>
+  <circle cx="175" cy="25" r="5" fill="white"/>
+  <circle cx="225" cy="25" r="5" fill="white"/>
+  <circle cx="275" cy="25" r="5" fill="white"/>
+  
+  <!-- Row 2 -->
+  <circle cx="25" cy="75" r="5" fill="white"/>
+  <circle cx="75" cy="75" r="5" fill="white"/>
+  <circle cx="125" cy="75" r="5" fill="white"/>
+  <circle cx="175" cy="75" r="5" fill="white"/>
+  <circle cx="225" cy="75" r="5" fill="white"/>
+  <circle cx="275" cy="75" r="5" fill="white"/>
+
+  <!-- Row 3 -->
+  <circle cx="25" cy="125" r="5" fill="white"/>
+  <circle cx="75" cy="125" r="5" fill="white"/>
+  <circle cx="125" cy="125" r="5" fill="white"/>
+  <circle cx="175" cy="125" r="5" fill="white"/>
+  <circle cx="225" cy="125" r="5" fill="white"/>
+  <circle cx="275" cy="125" r="5" fill="white"/>
+
+  <!-- Row 4 -->
+  <circle cx="25" cy="175" r="5" fill="white"/>
+  <circle cx="75" cy="175" r="5" fill="white"/>
+  <circle cx="125" cy="175" r="5" fill="white"/>
+  <circle cx="175" cy="175" r="5" fill="white"/>
+  <circle cx="225" cy="175" r="5" fill="white"/>
+  <circle cx="275" cy="175" r="5" fill="white"/>
+  
+  <!-- Row 5 -->
+  <circle cx="25" cy="225" r="5" fill="white"/>
+  <circle cx="75" cy="225" r="5" fill="white"/>
+  <circle cx="125" cy="225" r="5" fill="white"/>
+  <circle cx="175" cy="225" r="5" fill="white"/>
+  <circle cx="225" cy="225" r="5" fill="white"/>
+  <circle cx="275" cy="225" r="5" fill="white"/>
+
+  <!-- Row 6 -->
+  <circle cx="25" cy="275" r="5" fill="white"/>
+  <circle cx="75" cy="275" r="5" fill="white"/>
+  <circle cx="125" cy="275" r="5" fill="white"/>
+  <circle cx="175" cy="275" r="5" fill="white"/>
+  <circle cx="225" cy="275" r="5" fill="white"/>
+  <circle cx="275" cy="275" r="5" fill="white"/>
+
+  <!-- Row 7 -->
+  <circle cx="25" cy="325" r="5" fill="white"/>
+  <circle cx="75" cy="325" r="5" fill="white"/>
+  <circle cx="125" cy="325" r="5" fill="white"/>
+  <circle cx="175" cy="325" r="5" fill="white"/>
+  <circle cx="225" cy="325" r="5" fill="white"/>
+  <circle cx="275" cy="325" r="5" fill="white"/>
+
+  <!-- Row 8 -->
+  <circle cx="25" cy="375" r="5" fill="white"/>
+  <circle cx="75" cy="375" r="5" fill="white"/>
+  <circle cx="125" cy="375" r="5" fill="white"/>
+  <circle cx="175" cy="375" r="5" fill="white"/>
+  <circle cx="225" cy="375" r="5" fill="white"/>
+  <circle cx="275" cy="375" r="5" fill="white"/>
+</svg>

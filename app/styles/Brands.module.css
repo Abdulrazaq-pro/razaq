@@ -1,0 +1,32 @@
+.figure-class img {
+    object-fit: cover;
+  }
+  .heading-class {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  @media (min-width: 1024px) {
+    .heading-class {
+      font-size: 50px;
+      line-height: 1.2;
+    }
+  }
+  .button-class {
+    padding: 0.5rem 1rem;
+    background-color: #800507;
+    color: #fff;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  .button-class:hover {
+    background-color: #da2128;
+  }
+  .paragraph-class {
+    margin: 0;
+  }
+  .list-class {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  

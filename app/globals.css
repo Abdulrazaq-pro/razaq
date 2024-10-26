@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./styles/Brands.module.css);
+
+/*! CSS Used from: Embedded */
+/*! CSS Used from: Embedded */
+:root {
+  --primary: #4169e1;
+}
+
+/* styles/globals.css */
+:where(
+    :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
+  ) {
+  all: unset;
+  display: revert;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+a,
+button {
+  cursor: revert;
+}
+ul {
+  list-style: none;
+}
+::placeholder {
+  color: unset;
+}
+::selection {
+  /* color: var(--background);
+    background: var(--secondary); */
+}
+a {
+  font-weight: 600;
+}
+a {
+  /* color: var(--primary); */
+}
+a:hover {
+  /* color: var(--primary-bright); */
+}
+
+/* .main {
+    background: #000 ;
+    background: linear-gradient(135deg, #d4f5e3 25%, #fff7cc 25%, #fff7cc 50%, #d4f5e3 50%, #d4f5e3 75%, #fff7cc 75%, #fff7cc 100%);
+    background-size: 56.57px 56.57px;
+  }
+   */
+
+   .char {
+    display: inline-block;
+    white-space: pre; /* To preserve spaces */
+  }
+tet{
+  color: #a1a1a1;
+  color: #c7c7c7;
+}
