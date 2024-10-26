@@ -20,7 +20,7 @@ export const TandC = () => {
       <h2>Definitions</h2>
       <p>
         - **Service** refers to the payment processing and other related
-        services provided via Flutterwave's platform.
+        services provided via Flutterwave&apos;s platform.
         <br />
         - **You** refers to the user or customer utilizing the services offered
         by [Your Company Name].

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -5,8 +6,7 @@ const Footer = () => {
     <div
       className="bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage:
-          "url('/images/footer.jpg')",
+        backgroundImage: "url('/images/footer.jpg')",
       }}
     >
       <section id="footer-main" className="py-10">
@@ -44,27 +44,23 @@ const Footer = () => {
             {/* Services Section */}
             <div className="w-full lg:w-1/3 mb-8 text-left">
               <h4 className="text-lg font-semibold mb-4">My Services</h4>
-              <ul className="text-gray-600">
+              <ul className="text-gray-500 space-y-2">
                 <li>
-                  <a href="#" className="hover:text-maincolor">
-                    Front-End Development
-                  </a>
+                  <Link href="/docs/privacypolicy" className="hover:text-maincolor">
+                    Privacy Policy
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-maincolor">
-                    Responsive Web Design
-                  </a>
+                  <Link href="/docs/termsandconditon" className="hover:text-maincolor">
+                    Terms & Conditions
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-maincolor">
-                    UI/UX Design
-                  </a>
+                  <Link href="/docs/refundpolicy" className="hover:text-maincolor">
+                    Refund Policy
+                  </Link>
                 </li>
-                <li>
-                  <a href="#" className="hover:text-maincolor">
-                    Website Maintenance
-                  </a>
-                </li>
+                
               </ul>
             </div>
 
