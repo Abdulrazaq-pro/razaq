@@ -88,9 +88,9 @@ const Jobs = () => {
     // GSAP animation for all four elements, staggered
     gsap.fromTo(
       elements4.current,
-      { x: 100, opacity: 0.5 }, // Start offscreen to the right and invisible
+      { y: -20, opacity: 70 }, // Start offscreen to the right and invisible
       {
-        x: 0,
+        y: 0,
         opacity: 1,
         duration: 0.3,
         ease: "power2.out",
