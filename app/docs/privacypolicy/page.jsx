@@ -83,8 +83,8 @@ const Privacypolicy = () => {
   <h2 class="text-2xl font-semibold mt-8 mb-4">6. Changes to This Privacy Policy</h2>
   <p class="mb-4">
     We may update our privacy policy from time to time. We will notify you of
-    any changes by posting the new policy on this page and updating the "Last
-    Updated" date.
+    any changes by posting the new policy on this page and updating the &quot;Last
+    Updated&quot; date.
   </p>
   <p class="italic mb-8">Last Updated: October 20, 2024</p>
 

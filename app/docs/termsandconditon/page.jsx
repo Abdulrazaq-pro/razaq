@@ -13,14 +13,14 @@ import React from "react";
     Welcome to Raztechy! These terms and conditions outline the rules and
     regulations for the use of Raztechy’s services via Flutterwave. By accessing
     this service, we assume you accept these terms and conditions in full. Do
-    not continue to use Raztechy's services if you do not accept all of the
+    not continue to use Raztechy&apos;s services if you do not accept all of the
     terms and conditions stated on this page.
   </p>
 
   <h2 class="text-2xl font-semibold mt-8 mb-4">Definitions</h2>
   <p class="mb-4">
     - <span class="font-semibold">Service</span> refers to the payment processing and other
-    related services provided via Flutterwave's platform.
+    related services provided via Flutterwave&apos;s platform.
     <br />
     - <span class="font-semibold">You</span> refers to the user or customer utilizing the
     services offered by Raztechy.
