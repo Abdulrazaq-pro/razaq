@@ -13,9 +13,9 @@ const Jobs = () => {
     // GSAP animation for all four elements, staggered
     gsap.fromTo(
       elements.current,
-      { x: 100, opacity: 70 }, // Start offscreen to the right and invisible
+      { y: -20, opacity: 70 }, // Start offscreen to the right and invisible
       {
-        x: 0,
+        y: 0,
         opacity: 1,
         duration: 0.3,
         ease: "power2.out",
@@ -38,9 +38,9 @@ const Jobs = () => {
     // GSAP animation for all four elements, staggered
     gsap.fromTo(
       elements2.current,
-      { x: 100, opacity: 0.5 }, // Start offscreen to the right and invisible
+      { y: -20, opacity: 70 }, // Start offscreen to the right and invisible
       {
-        x: 0,
+        y: 0,
         opacity: 1,
         duration: 0.3,
         ease: "power2.out",
@@ -63,9 +63,9 @@ const Jobs = () => {
     // GSAP animation for all four elements, staggered
     gsap.fromTo(
       elements3.current,
-      { x: 100, opacity: 0.5 }, // Start offscreen to the right and invisible
+      { y: -20, opacity: 70 }, // Start offscreen to the right and invisible
       {
-        x: 0,
+        y: 0,
         opacity: 1,
         duration: 0.3,
         ease: "power2.out",
@@ -118,7 +118,7 @@ const Jobs = () => {
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Card 1 */}
-        <div class="w-full rounded-lg shadow bg-gradient-to-r from-neutral-800 via-neutral-700 to-neutral-600 outline outline-2 outline-neutral-700">
+        <div class="w-full rounded-lg shadow bg-gradient-to-r from-neutral-800/30 via-neutral-700/30 to-neutral-600/30 outline outline-2 outline-neutral-700/20">
           <div className="p-10 rounded-md w-full ">
             <Image
               src="/images/ticketmaster copy.png"
@@ -227,7 +227,7 @@ const Jobs = () => {
         </div>
 
         {/* Card 2 */}
-        <div class=" w-full rounded-lg shadow bg-gradient-to-r from-neutral-800 via-neutral-700 to-neutral-600 outline outline-2 outline-neutral-700">
+        <div class=" w-full rounded-lg shadow bg-gradient-to-r from-neutral-800/30 via-neutral-700/30 to-neutral-600/30 outline outline-2 outline-neutral-700/20">
           <div className="p-10 rounded-md w-full">
             <Image
               src="/images/daratech copy.png"
@@ -318,7 +318,7 @@ const Jobs = () => {
         </div>
 
         {/* Card 3 */}
-        <div class="w-full rounded-lg shadow bg-gradient-to-r from-neutral-800 via-neutral-700 to-neutral-600 outline outline-2 outline-neutral-700">
+        <div class="w-full rounded-lg shadow bg-gradient-to-r from-neutral-800/30 via-neutral-700/30 to-neutral-600/30 outline outline-2 outline-neutral-700/20">
           <div className="p-10 rounded-md w-full">
             <Image
               src="/images/karimah.jpg"
@@ -412,7 +412,7 @@ const Jobs = () => {
         {/* Card 4 */}
         <div
           href="https://www.karimahlawal.com"
-          class="w-full rounded-lg shadow bg-gradient-to-r from-neutral-800 via-neutral-700 to-neutral-600 outline outline-2 outline-neutral-700"
+          class="w-full rounded-lg shadow bg-gradient-to-r from-neutral-800/30 via-neutral-700/30 to-neutral-600/30 outline outline-2 outline-neutral-700/20"
         >
           <div className="p-10 rounded-md w-full">
             <Image

@@ -14,7 +14,7 @@ import Test from "./components/Test";
 import Jobs from "./components/Jobs";
 
 export default function Home() {
-  //add smooth scrolling
+  // add smooth scrolling
   useEffect(() => {
     // Adding smooth scrolling behavior to elements with the class 'smooth-scroll'
     document.querySelectorAll(".smooth-scroll").forEach((anchor) => {

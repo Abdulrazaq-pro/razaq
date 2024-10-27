@@ -1,6 +1,7 @@
 import React from "react";
 
 const About = () => {
+  
   return (
     <div>
       <div className='relative flex-col w-full box-border [border-bottom:1px_solid_var(--primary-dark)] bg-[rgb(6,_7,_8)] text-[rgb(136,_136,_137)] text-[16px] m-0 font-normal font-[Inter,_-apple-system,_BlinkMacSystemFont,_"Segoe_UI",_Roboto,_Oxygen,_Ubuntu,_Cantarell,_"Fira_Sans",_"Droid_Sans",_"Helvetica_Neue",_sans-serif]'>
@@ -550,3 +551,6 @@ const About = () => {
 };
 
 export default About;
+
+
+
