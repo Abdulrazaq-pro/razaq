@@ -102,7 +102,6 @@ const Jobs = () => {
         },
       }
     );
-
     // Cleanup on unmount
     // return () => {
     //   ScrollTrigger.kill();
