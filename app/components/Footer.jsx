@@ -38,7 +38,11 @@ const Footer = () => {
                   </a>
                 </p>
                 <p>Always available &#128640; </p>
-                <p>20, Bode Fapohunda Str off Ago Palace Way, Lagos, Nigeria </p>
+                <p><strong>Office Address:</strong><br>
+                20 Bode Fapohunda Street,<br>
+                Off Ago Palace Way,<br>
+                Lagos, Nigeria</p>
+
               </div>
             </div>
 
