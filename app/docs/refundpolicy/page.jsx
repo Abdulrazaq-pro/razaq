@@ -51,8 +51,8 @@ const Refundpolicy = () => {
     <p class="mb-4">
       To request a refund, please contact us within 14 days of the service start
       date by emailing
-      <a href="mailto:abdulrazmail@gmail.com" class="text-blue-600 underline">
-        abdulrazmail@gmail.com
+      <a href="mailto:adisaabdulra@gmail.com" class="text-blue-600 underline">
+        adisaabdulra@gmail.com
       </a>
       or reaching out via WhatsApp at +2349055002293. Your request will be
       reviewed, and we will notify you of the status of your refund within 7
@@ -74,8 +74,8 @@ const Refundpolicy = () => {
   
     <p class="mb-4">
       If you have any questions about our refund policy, please contact us at
-      <a href="mailto:abdulrazmail@gmail.com" class="text-blue-600 underline">
-        abdulrazmail@gmail.com
+      <a href="mailto:adisaabdulra@gmail.com" class="text-blue-600 underline">
+        adisaabdulra@gmail.com
       </a>.
     </p>
   
