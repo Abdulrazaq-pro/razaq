@@ -38,7 +38,7 @@ const Footer = () => {
                   </a>
                 </p>
                 <p>Always available &#128640; </p>
-                <p>Lagos, Nigeria </p>
+                <p>20, Bode Fapohunda Str off Ago Palace Way, Lagos, Nigeria </p>
               </div>
             </div>
 
