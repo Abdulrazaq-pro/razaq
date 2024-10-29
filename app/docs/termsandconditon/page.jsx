@@ -90,8 +90,8 @@ import React from "react";
   <h2 class="text-2xl font-semibold mt-8 mb-4">Contact Information</h2>
   <p class="mb-4">
     If you have any questions about these Terms and Conditions, please contact us
-    at <a href="mailto:abdulrazmail@gmail.com" class="text-blue-600 underline">
-      abdulrazmail@gmail.com</a>.
+    at <a href="mailto:adisaabdulra@gmail.com" class="text-blue-600 underline">
+      adisaabdulra@gmail.com</a>.
   </p>
 </div>
 
