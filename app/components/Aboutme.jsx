@@ -144,10 +144,10 @@ const Aboutme = () => {
                   <div className="icon1 inline-flex items-center justify-center bg-gray-200 rounded-lg p-1">
                     <a
                       className="inline-flex shrink-0 justify-center items-center size-10 font-medium text-gray-800"
-                      href="https://www.figma.com/community/file/1179068859697769656"
+                      href="mailto:adisaabdulra@gmail.com"
                       target="_blank"
                     >
-                      <img className="size-5" src="/images/figma.svg" alt="" />
+                      <img className="size-5" src="/images/gmail.jpeg" alt="" />
                     </a>
                   </div>
                   <div className="icon1 inline-flex items-center justify-center bg-gray-200 rounded-lg p-1">
